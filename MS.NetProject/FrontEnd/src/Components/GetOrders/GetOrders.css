@@ -1,0 +1,17 @@
+.getOrdersContainer {
+    padding: 20px;
+}
+
+.getOrdersTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.getOrdersTable th, .getOrdersTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.getOrdersTable th {
+    background-color: #f2f2f2;
+}

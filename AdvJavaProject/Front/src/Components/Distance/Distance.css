@@ -1,0 +1,107 @@
+
+   .containerDist {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+   
+  }
+  
+  .map-section{
+    margin-top: 5%;
+    flex: 1;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  .form-section {
+    margin-top: 5%;
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box; 
+  }
+  
+  .form-section {
+    margin-right: 20px;
+    background-color: #c7c7ab;
+  }
+  
+  .map-section {
+    background-color: #d8c3c3; 
+  }
+  
+  #googleMap {
+    width: 100%;
+    height: 100%; 
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #output {
+    margin-top: 20px;
+  }
+  
+  .alert-info {
+    padding: 15px;
+    background-color: #d9edf7;
+    border: 1px solid #bce8f1;
+    border-radius: 4px;
+    color: #053751;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .alert-danger {
+    padding: 15px;
+    background-color: #d66b6b;
+    border: 1px solid #ebccd1;
+    border-radius: 4px;
+    color: #1d1a1a;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .text {
+    font-size: 300%;
+    color: black;
+  }
+
+  .form-group {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    margin-bottom: 15px; 
+    flex-direction: row;    
+  }
+
+  .form-label {
+    flex: 0 0 150px; 
+    margin-right:  1px; 
+    font-size: 20px;
+  }
+
+  .form-input {
+    flex: 1;
+  }
+
+ .btn{
+    background-color: rgb(60, 149, 184);
+ }
+
+ .order-section {
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+}
+
+  

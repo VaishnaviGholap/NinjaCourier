@@ -1,0 +1,109 @@
+
+
+
+.cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('/public/Images/track.jpg');
+    background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+
+
+  }
+  
+  .submit-form-container {
+    background: #eecbcb;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    box-sizing: border-box;
+
+  }
+  
+  .submit-form-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 5px;
+  }
+  
+  .control-label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 2px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .form-control:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .text-danger {
+    color: #e74c3c;
+    font-size: 12px;
+    display: block;
+    margin-top: 5px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+
+  .backus{
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+}
+  
+  @media (max-width: 600px) {
+    .submit-form-container {
+      padding: 15px;
+    }
+  
+    .submit-form-heading {
+      font-size: 20px;
+    }
+  
+    .form-control {
+      font-size: 16px;
+    }
+  
+    .btn-primary {
+      font-size: 14px;
+      padding: 8px 12px;
+    }
+
+    
+  }
+  
+  

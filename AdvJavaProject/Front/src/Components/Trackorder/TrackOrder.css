@@ -1,0 +1,144 @@
+
+.track-courier-center-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    background: url('/public/Images/track.jpg') ; 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.track-courier-form-container {
+    background-color: rgb(202, 202, 202);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 900px;
+    width: 100%;
+}
+
+/* Heading styles */
+.track-courier-heading {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: #333;
+}
+
+.track-courier-heading-line {
+    border: 0;
+    height: 2px;
+    background-color: #0f1011;
+    margin-bottom: 20px;
+}
+
+/* Form group styling */
+.track-courier-form-group {
+    margin-bottom: 20px;
+}
+
+.track-courier-control-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.track-courier-input-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Error message styling */
+.track-courier-text-danger {
+    color: #ff4d4d;
+    font-size: 14px;
+    margin-top: 5px;
+    display: block;
+}
+
+/* Button styles */
+.track-courier-btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.3s;
+    width: 20%;
+   margin-left: 5%;
+}
+
+.track-courier-btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.track-courier-btn-success {
+    background-color: #28a745;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    margin-left: 20px;
+    transition: background-color 0.3s;
+    width: 40%;
+    text-decoration: none;
+    margin-left: 50%;
+} 
+
+
+/* For tablets and smaller screens */
+@media (max-width: 992px) {
+    .track-courier-btn-success {
+        width: 60%; /* Adjust width for tablets and smaller screens */
+        margin-left: auto; /* Center alignment with margin auto */
+        margin-right: auto; /* Center alignment with margin auto */
+    }
+}
+
+/* For mobile devices */
+@media (max-width: 768px) {
+    .track-courier-btn-success {
+        width: 80%; /* Adjust width for mobile devices */
+        font-size: 14px; /* Slightly smaller font size */
+        padding: 8px 16px; /* Adjust padding */
+    }
+}
+
+/* For very small devices */
+@media (max-width: 576px) {
+    .track-courier-btn-success {
+        width: 90%; /* Full width for very small screens */
+        font-size: 12px; /* Smaller font size */
+        padding: 6px 12px; /* Adjust padding */
+    }
+}
+
+
+.track-courier-btn-success:hover {
+    background-color: #218838;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+    .track-courier-form-container {
+        padding: 20px;
+        max-width: 100%;
+    }
+
+    .track-courier-btn-primary,
+    .track-courier-btn-success {
+        width: 100%;
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+}

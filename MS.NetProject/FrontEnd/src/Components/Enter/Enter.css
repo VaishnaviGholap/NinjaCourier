@@ -1,0 +1,57 @@
+.entry-page {
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+    background: url("D:\finalProject\MajorProject\public\Images\video.gif") no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    margin-top: 10%;
+  }
+  
+  .welcome-message {
+    font-size: 50px;
+    color: lemonchiffon;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    margin-bottom: 20px;
+    
+  }
+  
+  .enter-button {
+    background-color: blue;
+    color: aliceblue;
+    border: none;
+    padding: 10px 20px;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  .enter-button:hover {
+    background-color: darkgray;
+  }
+  

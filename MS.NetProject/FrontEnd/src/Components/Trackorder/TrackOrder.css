@@ -1,0 +1,51 @@
+/* TrackOrder.css */
+
+.center-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("D:\finalProject\MajorProject\public\Images\track.jpg"); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.form-container {
+    background-color: #ecefd4;
+    padding: 30px; 
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 700px; 
+    max-width: 100%; 
+   
+}
+
+.track-courier-heading {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 65px; 
+    color: #0d0e0f; }
+
+.control-label{
+    font-size: 50px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.text-danger {
+    color: red;
+}
+
+.heading-line {
+    border: 0;
+    border-top: 2px solid #0d0e0f; /* Color and thickness of the line */
+    margin: 20px 0; /* Space around the line */
+}
+
+.backbtn{
+    display: flex;
+    justify-content: center;
+}

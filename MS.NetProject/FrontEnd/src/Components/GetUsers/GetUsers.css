@@ -1,0 +1,17 @@
+.getUsersContainer {
+    padding: 20px;
+}
+
+.getUsersTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.getUsersTable th, .getUsersTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.getUsersTable th {
+    background-color: #f2f2f2;
+}

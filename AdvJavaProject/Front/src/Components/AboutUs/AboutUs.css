@@ -1,0 +1,120 @@
+
+   .about-us-container {
+    padding: 40px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #e4ecf4;
+    color: #333;
+    max-width: 1200px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .about-us-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  
+  .about-us-company-name {
+    font-size: 38px;
+    font-weight: 700;
+    color: #007bff;
+    margin-right: 20px; 
+    order: 1; 
+  }
+  
+  .about-us-gif-image {
+    width: 150px;
+    height: 150px;
+    background-image: url('/public/Images/ninjalogo.gif');
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    order: 2; 
+  }
+  
+  .about-us-heading {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #06386e;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    font-weight: 700;
+  }
+  
+  .about-us-subheading {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #343a40;
+    font-weight: 600;
+  }
+  
+  .about-us-text {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #495057;
+  }
+  
+  .about-us-values {
+    margin-top: 40px;
+  }
+  
+  .about-us-value {
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-left: 4px solid #007bff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .about-us-team-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .about-us-team-member {
+    font-size: 20px;
+    font-weight: 500;
+    color: #040507;
+    background-color: rgb(240, 237, 237);
+    padding: 10px 15px;
+    border-radius: 4px;
+    flex: 1 1 200px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .about-us-team-member:hover {
+    transform: scale(1.05);
+  }
+  
+  .about-us-testimonials {
+    margin-top: 50px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .about-us-quote {
+    font-size: 20px;
+    font-style: italic;
+    color: #6c757d;
+    border-left: 4px solid #007bff;
+    padding-left: 20px;
+    margin-top: 20px;
+    max-width: 800px;
+    margin: 20px auto 0 auto;
+  }
+  

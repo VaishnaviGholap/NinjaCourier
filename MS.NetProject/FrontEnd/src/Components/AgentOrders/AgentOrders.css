@@ -1,0 +1,17 @@
+.agentOrdersContainer {
+    padding: 20px;
+}
+
+.agentOrdersTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.agentOrdersTable th, .getOrdersTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.agentOrdersTable th {
+    background-color: #f2f2f2;
+}

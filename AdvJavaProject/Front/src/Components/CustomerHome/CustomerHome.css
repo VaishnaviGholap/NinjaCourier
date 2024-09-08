@@ -1,0 +1,111 @@
+
+    body {
+        background-color: rgb(252, 238, 246);
+    }
+    
+    html, body {
+        height: 100%;
+        margin: 0;
+       
+    }
+    
+    .container {
+        padding-top: 20px;
+    }
+    
+    .card {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    
+    .card-img-top {
+        height: 200px;
+        object-fit: cover;
+    }
+    
+    .card-body1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-grow: 1;
+        margin-left: 10px;
+        padding: 10px;
+    } 
+    
+
+    @media (max-width: 575.98px) {
+        .container {
+            padding-top: 10px;
+        }
+        
+        .card {
+            margin-bottom: 15px;
+        }
+        
+        .card-img-top {
+            height: 150px;
+        }
+    }
+    
+    /* Small devices (landscape phones, 576px and up) */
+    @media (min-width: 576px) and (max-width: 767.98px) {
+        .container {
+            padding-top: 15px;
+        }
+        
+        .card {
+            margin-bottom: 20px;
+        }
+        
+        .card-img-top {
+            height: 180px;
+        }
+    }
+    
+    /* Medium devices (tablets, 768px and up) */
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        .container {
+            padding-top: 20px;
+        }
+        
+        .card {
+            margin-bottom: 25px;
+        }
+        
+        .card-img-top {
+            height: 200px;
+        }
+    }
+    
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+        .container {
+            padding-top: 25px;
+        }
+        
+        .card {
+            margin-bottom: 30px;
+        }
+        
+        .card-img-top {
+            height: 220px;
+        }
+    }
+    
+    /* Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {
+        .container {
+            padding-top: 30px;
+        }
+        
+        .card {
+            margin-bottom: 35px;
+        }
+        
+        .card-img-top {
+            height: 250px;
+        }
+    }
+
+    

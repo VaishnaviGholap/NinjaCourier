@@ -1,0 +1,65 @@
+.about-us1 {
+    padding: 20px;
+    background-color: #a0b7d976;
+}
+
+.about-us1 h1,
+.about-us1 h2 {
+    color: #333;
+}
+
+.about-us1 .mission-vision .card,
+.about-us1 .values .card,
+.about-us1 .team-member .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-us1 .team-member img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.about-us1 .team-member .card-body {
+    text-align: center;
+}
+
+.about-us1 .testimonials blockquote {
+    font-size: 1.2rem;
+    font-style: italic;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.mission-vision {
+    text-align: justify;
+    margin-top: 0px;
+}
+
+.mission-vision .mission,
+.mission-vision .vision {
+    font-size: large;
+    font-weight: bold;
+}
+
+.mission-vision .missiontext,
+.mission-vision .visiontext {
+    font-size: 1.1rem;
+}
+
+.values {
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .about-us .mission-vision,
+    .about-us .values,
+    .about-us .team-member,
+    .about-us .testimonials {
+        margin-bottom: 3px;
+    }
+
+    .about-us .testimonials blockquote {
+        font-size: 1rem;
+    }
+}

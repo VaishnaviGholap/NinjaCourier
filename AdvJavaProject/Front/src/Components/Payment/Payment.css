@@ -1,0 +1,107 @@
+
+   .Payment {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+    padding: 20px;
+    background: url('/public/Images/payment.jpg') ; 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+   }
+  
+  .Payment-container {
+    background-color:rgb(250, 245, 214);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-color: black;
+  }
+  
+  .Payment h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .Payment button {
+    border: none;
+    color:white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+    width: 30%;
+
+  }
+  
+  .Payment .payment-button {
+    background-color: #8062ef;
+  }
+  
+  .Payment .payment-button:hover {
+    background-color: #5a4fcf;
+  }
+  
+  .Payment .cancel-button {
+    background-color: #ff6b6b;
+  }
+  
+  .Payment .cancel-button:hover {
+    background-color: #d9534f;
+  }
+  
+  .Payment input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .Payment form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Payment .fetch-button {
+    background-color: #28a745;
+    width: 80%;
+  }
+  
+  .Payment .fetch-button:hover {
+    background-color: #218838;
+  }
+  
+  .Payment ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #dbe6f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .Payment ul li {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+  }
+  

@@ -1,0 +1,30 @@
+
+  .getOrdersContainer {
+    padding: 20px;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.getOrdersTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.getOrdersTable th, .getOrdersTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.getOrdersTable th {
+    background-color: #f2f2f2;
+}
+
+
+@media (max-width: 768px) {
+    .getOrdersTable th, .getOrdersTable td {
+        font-size: 12px;
+        padding: 6px;
+    }
+}

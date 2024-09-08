@@ -1,0 +1,31 @@
+
+
+.getUsersContainer {
+    padding: 20px;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.getUsersTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.getUsersTable th, .getUsersTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.getUsersTable th {
+    background-color: #f2f2f2;
+}
+
+
+@media (max-width: 768px) {
+    .getUsersTable th, .getUsersTable td {
+        font-size: 12px;
+        padding: 6px;
+    }
+}

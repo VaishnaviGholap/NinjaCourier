@@ -1,0 +1,64 @@
+.agentContainer {
+    background-color:  rgb(248, 229, 236);
+    height: 100%;
+    /* margin: 0; */
+    padding: 0px;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  
+  .agentTitle {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    font-size: 70px;
+    color: black;
+    margin-bottom: 0%;
+  }
+  
+  .agentDetailsCard {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .agentDetailsImg {
+    width: 300px; 
+    max-width: 300px; 
+    height: 300px; 
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .agentDetailsBody {
+    text-align: center;
+    
+  }
+  
+  .agentDetailsTitle {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .agentDetailsTitle1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .agentDetailsText {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+  }
+  
+  .btn {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  

@@ -1,0 +1,45 @@
+
+
+    .cardDetail {
+        margin-top: 100px;
+        background-color: rgb(220, 213, 213);
+    }
+    
+    .card-header {
+        background-color: #f8f9fa;
+        padding: 1rem;
+        text-align: center; 
+    }
+    
+   
+    
+    .card-footer {
+        background-color: rgb(190, 186, 186);
+        padding: 0.75rem 1.25rem;
+        text-align: center; 
+    }
+    
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+        margin-right: 10px;
+    }
+
+    .card-body {
+        max-width: 1000px; 
+      
+        margin-left: 450px;
+      margin-top: 20px;
+        
+      }
+      
+      .dl.row dt {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+      }
+      
+      .dl.row dd {
+        display: flex;
+        align-items: center;
+      }

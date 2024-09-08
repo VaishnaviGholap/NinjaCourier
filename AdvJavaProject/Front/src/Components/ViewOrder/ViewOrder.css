@@ -1,0 +1,19 @@
+.table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.getOrdersTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.getOrdersTable th, .getOrdersTable td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.getOrdersTable th {
+    background-color: #f2f2f2;
+}

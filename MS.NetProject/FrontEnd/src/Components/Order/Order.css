@@ -1,0 +1,123 @@
+
+.background {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("D:\finalProject\MajorProject\public\Images\track.jpg"); 
+    background-size: cover; 
+   background-position: center; 
+   background-repeat: no-repeat;
+   padding-top: 50px;
+  }
+
+
+.order-container {
+    margin-top: 40px;
+    background-color: #f0f8ff; /* Light blue background for the form container */
+    padding: 20px;
+    border-radius: 8px; /* Example border radius for the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Example shadow for the container */
+    max-width: 600px; /* Set maximum width */
+    margin: auto; 
+}
+
+/* CSS for the order form */
+.order-form {
+    width: 100%; /* Full width within the container */
+}
+
+/* CSS for form labels */
+.order-container .control-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #333; /* Darker grey color for the labels */
+}
+
+/* CSS for form inputs */
+.order-container .form-control {
+    border: 1px solid #007bff; /* Blue border color */
+    border-radius: 4px; /* Example border radius */
+    padding: 10px; /* Example padding */
+    margin-bottom: 15px; /* Example margin bottom */
+    background-color: #e9f7ff; /* Light blue background for inputs */
+}
+
+/* CSS for form submit button */
+.order-container .btn-primary {
+    background-color: #007bff; /* Example primary button color */
+    border-color: #007bff; /* Example primary button border color */
+    color: #fff; /* Example primary button text color */
+    padding: 10px 20px; /* Example padding */
+    border-radius: 4px; /* Example border radius */
+    transition: background-color 0.3s, border-color 0.3s; /* Smooth transition for hover effects */
+}
+
+.order-container .btn-primary:hover {
+    background-color: #0056b3; /* Example primary button hover color */
+    border-color: #0056b3; /* Example primary button hover border color */
+    color: #fff; /* Example primary button hover text color */
+}
+
+/* CSS for back to home link button */
+.order-container .btn-success {
+    background-color: #28a745; /* Example success button color */
+    border-color: #28a745; /* Example success button border color */
+    color: #fff; /* Example success button text color */
+    padding: 10px 20px; /* Example padding */
+    border-radius: 4px; /* Example border radius */
+    transition: background-color 0.3s, border-color 0.3s; /* Smooth transition for hover effects */
+    margin-left: 10px; /* Added margin for spacing between buttons */
+}
+
+.order-container .btn-success:hover {
+    background-color: #218838; /* Example success button hover color */
+    border-color: #1e7e34; /* Example success button hover border color */
+    color: #fff; /* Example success button hover text color */
+}
+
+/* CSS for error messages */
+.order-container .text-danger {
+    color: #dc3545; /* Example error text color */
+    font-size: 0.875em; /* Example font size for error messages */
+}
+
+/* Centered text */
+.order-container .text-center {
+    text-align: center;
+}
+
+/* Margin-top for rows */
+.order-container .mt-5 {
+    margin-top: 3rem;
+}
+
+/* Justify content center for rows */
+.order-container .justify-content-center {
+    justify-content: center;
+}
+
+.control-label {
+    flex: 0 0 150px; /* Fixed width for labels */
+    margin-right:  1px; /* Space between label and input */
+  
+  }
+
+  .form-input {
+    flex: 1; /* Make the input field take the remaining space */
+  }
+
+  .back-icon {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  .back-icon:hover {
+    transform: scale(1.1);
+  }
+
+

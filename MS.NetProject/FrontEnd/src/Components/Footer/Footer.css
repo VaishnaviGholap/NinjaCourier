@@ -1,0 +1,74 @@
+/* Footer.css */
+
+.footer {
+    background-color: #bac7d4; /* Light grey background color */
+    padding: 40px 0;
+    border-top: 1px solid #e9ecef; /* Subtle border on top */
+    text-align: left; /* Ensure text alignment is left by default */
+  }
+  
+  .footer h6 {
+    color: #343a40; /* Dark grey color for headings */
+    margin-bottom: 1rem;
+    font-size: 1.25rem; /* Increase the size of the headings */
+    font-weight: bold; /* Make the headings bold */
+  }
+  
+  .footer p {
+    color: black; /* Medium grey color for paragraph text */
+    font-size: 1rem; /* Adjust the font size */
+  }
+  
+  .footer ul {
+    padding-left: 0; /* Remove padding to align list items with text */
+    list-style-type: none; /* Remove bullets from the list items */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .footer ul li {
+    margin-bottom: 0.5rem; /* Reduce the margin between list items */
+    font-size: 1rem; /* Adjust the font size */
+  }
+  
+  .footer a {
+    color: #007bff; /* Bootstrap blue color */
+    text-decoration: none;
+    font-weight: normal; /* Normal font weight for links */
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+    color: #0056b3; /* Darker blue color on hover for better visibility */
+  }
+  
+  #txt, #link {
+    margin-top: 1rem;
+    
+  }
+  
+  .footer .row {
+    margin-bottom: 2rem;
+  }
+  
+  .footer .container img {
+    margin: 0 10px; /* Space out the GIF icons */
+    width: 40px; /* Set the width of the icons */
+    height: 40px; /* Set the height of the icons */
+  }
+  
+  @media (max-width: 767.98px) {
+    .footer .row {
+      text-align: center;
+    }
+    
+    .footer .container img {
+      margin: 10px auto; /* Center GIFs on small screens */
+      width: 35px; /* Adjust width of icons on smaller screens */
+      height: 35px; /* Adjust height of icons on smaller screens */
+    }
+  
+    .footer ul {
+      padding-left: 0; /* Ensure no extra padding on small screens */
+    }
+  }
+  

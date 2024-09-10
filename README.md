@@ -1,5 +1,5 @@
 Platform : 
-          J2EE (Spring Boot) + ReactJS+MySQL + ASP .NET + MS-SQ Server
+          J2EE (Spring Boot) + ReactJS+MySQL + ASP .NET + MS-SQL Server
           
 Description :
           Ninja Courier is a delivery management platform built on dual-technology stack. It features secure authentication
